@@ -242,7 +242,7 @@ class WoMailCheckIn:
             except Exception as e:
                 print(e)
                 msg = "登录失败"
-                msg_all += msg + '\n\n'
+            msg_all += msg + '\n\n'
         return msg_all
 
 
